@@ -3,10 +3,11 @@
 
 $base-color: #fbb03b;
 $second-color: #39b69f;
+$third-color: #138073;
 $white-color: #fff;
 body {
     background-color: $base-color;
-    color: $second-color;
+    color: $third-color;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,7 +17,7 @@ body {
 .navbar-toggler {
     padding: 0.6em 0.8em;
     /*font-size: 1em;*/
-    background-color: $second-color;
+    background-color: $third-color;
     border-radius: 50%;
     transition: all 0.5s;
 
@@ -35,7 +36,28 @@ body {
     height: 60px;
     border: 1px solid grey;
     }
+    ::placeholder {
+        color: $second-color;
+    }
+    label {
+        margin-top: 23px;
+    }
+    span {
+        text-decoration: underline;
+    }
+}
     
+.own-style-button {
+    width: 300px;
+    background-color: $second-color;
+    color: $white-color;
+    height: 80px;
+    border: 0.5px solid $white-color;
+
+    &:hover {
+        background-color: #e4dada;
+        transition: all 0.5s;
+    }
 }
 h2 {
     text-align: center;

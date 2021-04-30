@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto:wght@400;700&display=swap");
 body {
   background-color: #fbb03b;
-  color: #39b69f;
+  color: #138073;
   font-family: "Roboto", sans-serif;
 }
 
 .navbar-toggler {
   padding: 0.6em 0.8em;
   /*font-size: 1em;*/
-  background-color: #39b69f;
+  background-color: #138073;
   border-radius: 50%;
   transition: all 0.5s;
 }
@@ -25,6 +25,27 @@ body {
 .form-group input {
   height: 60px;
   border: 1px solid grey;
+}
+.form-group ::placeholder {
+  color: #39b69f;
+}
+.form-group label {
+  margin-top: 23px;
+}
+.form-group span {
+  text-decoration: underline;
+}
+
+.own-style-button {
+  width: 300px;
+  background-color: #39b69f;
+  color: #fff;
+  height: 80px;
+  border: 0.5px solid #fff;
+}
+.own-style-button:hover {
+  background-color: #e4dada;
+  transition: all 0.5s;
 }
 
 h2 {
